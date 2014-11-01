@@ -25,7 +25,11 @@
  * OR PERFORMANCE OF THIS SOFTWARE.
  * 
  */
+
+#ifdef _OPENMP
 #include <omp.h>
+#endif
+
 #include <time.h>
 #include <stdlib.h>
 #include <math.h>
